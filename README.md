@@ -1,6 +1,6 @@
-# INFOSYS-INTERNSHIP-OIL_SPILL_DETECTION-
+# INFOSYS-INTERNSHIP-OIL_SPILL_DETECTION
 
-## Project Submissions
+## Project Submission - Jeevietha
 
 ---
 
