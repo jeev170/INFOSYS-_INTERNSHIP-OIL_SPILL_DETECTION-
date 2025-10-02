@@ -13,7 +13,6 @@ def mount_drive_and_get_dataset_path():
     Mount Google Drive on Colab and return the folder path to the dataset.
     """
     drive.mount('/content/drive')
-    # Change this to your Google Drive folder path holding dataset
     dataset_folder = '/content/drive/MyDrive/1NaBM5eigrR0oz6N82mtBj56G3ZzQ7PXx'
     return dataset_folder
 
