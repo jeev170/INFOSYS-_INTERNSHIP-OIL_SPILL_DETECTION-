@@ -1,4 +1,4 @@
-# 🌊 Oil Spill Detection ⚓
+# 🌊 Oil Spill Segmentation with U-Net ⚓
 
 A deep learning pipeline for oil spill detection and semantic segmentation on water bodies using a **U-Net** architecture. This project encompasses model training, hyperparameter tuning, evaluation, visual reporting, and an interactive **Streamlit** web application for demonstration and real-world file testing.
 
@@ -20,16 +20,16 @@ This repository implements **U-Net-based semantic segmentation** for identifying
 The key files and directories are structured as follows:
 
 .
--├── README.md
--├── evaluate_and_visualize.py         # Model evaluation & visualization script
--├── hyperband_tuner.py                # Hyperparameter tuning (KerasTuner)
--├── model_define_train.py             # U-Net model definition and training logic
--├── setup_and_load.py                 # Data preparation/util scripts
--├── streamlit_app_launcher.py         # Streamlit app for interactive demo
--├── training_history_loss.png         # Training/validation loss curve
--├── unet_architecture.json            # Saved U-Net model architecture
--├── unet_best_weights.weights.h5      # Best trained model weights
--└── unet_history.json                 # Training history and metrics
+├── README.md
+├── evaluate_and_visualize.py         # Model evaluation & visualization script
+├── hyperband_tuner.py                # Hyperparameter tuning (KerasTuner)
+├── model_define_train.py             # U-Net model definition and training logic
+├── setup_and_load.py                 # Data preparation/util scripts
+├── streamlit_app_launcher.py         # Streamlit app for interactive demo
+├── training_history_loss.png         # Training/validation loss curve
+├── unet_architecture.json            # Saved U-Net model architecture
+├── unet_best_weights.weights.h5      # Best trained model weights
+└── unet_history.json                 # Training history and metrics
 
 ---
 
